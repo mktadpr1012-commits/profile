@@ -1,0 +1,13 @@
+{
+  "name": "personal-profile-site",
+  "version": "1.0.0",
+  "description": "Stitch 디자인 기반 개인 프로필 정적 웹사이트",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALEX.DEV — Product Designer &amp; Developer</title>
+  <meta name="description" content="프로덕트 디자이너 & 프론트엔드 개발자 알렉스 첸의 개인 프로필 웹사이트">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Top Navigation ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-dot"></span>
+        <span class="brand-name">ALEX.DEV</span>
+      </a>
+
+      <nav class="nav" id="mainNav" aria-label="주요 메뉴">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="다크 모드 전환">
+          <span class="material-symbols-outlined">dark_mode</span>
+        </button>
+        <a class="btn btn-primary btn-sm header-cta" href="#contact">Let's Talk</a>
+        <button class="icon-btn menu-toggle" id="menuToggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobileNav">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="btn btn-primary" href="#contact">Let's Talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HOME / HERO ===== -->
+    <section class="hero" id="home">
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <div class="status-chip">
+            <span class="pulse"><span class="pulse-ring"></span><span class="pulse-dot"></span></span>
+            <span>Available for new opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+            디지털 경험과 인터페이스를 만드는 <span class="accent">알렉스 첸</span>
+          </h1>
+
+          <p class="hero-bio">
+            정교한 인터랙션 디자인과 견고한 프론트엔드 엔지니어링의 경계를 허물며, 사용자 중심의 아름답고 측정 가능한 제품을 구축합니다.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-lg" href="#projects">
+              <span>포트폴리오 확인하기</span>
+              <span class="material-symbols-outlined">arrow_downward</span>
+            </a>
+            <a class="btn btn-outline btn-lg" href="#contact" id="resumeBtn">
+              <span>이력서 다운로드</span>
+              <span class="material-symbols-outlined">download</span>
+            </a>
+          </div>
+
+          <div class="metrics">
+            <div>
+              <p class="metric-value">6+ 년</p>
+              <p class="metric-label">프로덕트 경력</p>
+            </div>
+            <div>
+              <p class="metric-value">30+ 건</p>
+              <p class="metric-label">완료 프로젝트</p>
+            </div>
+            <div>
+              <p class="metric-value">99.8%</p>
+              <p class="metric-label">클라이언트 만족도</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-wrap">
+            <div class="portrait-frame"></div>
+            <div class="portrait-card">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgAID-tTlcH0kz5qe9teOlrWP0Ep5ze0nXzb8lvX2Qg6Mq_4N001yX8seMFSNP9BNVXMQsIxZyW96p7py8ViXaYq3O3rf4pAn-gWAjZ2Q07mKayheOAyMi8GDpfwalh1wqIPZXXbov7PEQlDkCCXHhv8BbCsZL4dhUHwt3GXRyJfLK3V8QE2DF1vyNwc2wT4B4LnWsV7Eg6Y608TydV9CZH27gFey6Ba5dc8uJj77yaByMxrjEe7K0bpMnzjIBqjBL5w"
+                   alt="스튜디오에서 촬영한 알렉스 첸의 프로필 사진">
+              <div class="floating-badge">
+                <div class="badge-left">
+                  <div class="badge-icon"><span class="material-symbols-outlined">palette</span></div>
+                  <div>
+                    <p class="badge-title">Product &amp; Tech</p>
+                    <p class="badge-sub">Seoul &amp; Remote</p>
+                  </div>
+                </div>
+                <span class="badge-tag">PRO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section section-white" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">ABOUT THE CRAFT</span>
+          <h2 class="section-title">본질에 집중하는 설계, 기술로 완성하는 가치</h2>
+          <p class="section-desc">
+            사용성 연구와 엔지니어링의 균형점을 찾고, 복잡한 시스템을 가장 명쾌하고 우아한 직관적 인터페이스로 정제합니다.
+          </p>
+        </div>
+
+        <div class="bento">
+          <!-- Background & Major -->
+          <div class="card card-muted bento-edu">
+            <div>
+              <div class="icon-tile"><span class="material-symbols-outlined">school</span></div>
+              <span class="micro-label">BACKGROUND &amp; MAJOR</span>
+              <h3 class="card-title">컴퓨터공학 &amp; 인터랙션 디자인</h3>
+              <p class="card-text">
+                서울대학교 컴퓨터공학 학사 및 디자인 테크놀로지 연계 전공. 알고리즘적 사고와 시각적 감각을 결합하여 프로덕트 전반을 엔드투엔드로 이해하고 실행합니다.
+              </p>
+            </div>
+            <div class="card-foot">
+              <span class="foot-label">학사 학위 수료</span>
+              <span class="foot-value">2018 - 2022</span>
+            </div>
+          </div>
+
+          <!-- Experience -->
+          <div class="card card-raised bento-exp">
+            <div class="card-head">
+              <div class="card-head-title">
+                <span class="material-symbols-outlined accent-icon">work_history</span>
+                <h3 class="card-title no-margin">경력 요약 (Experience)</h3>
+              </div>
+              <span class="micro-label">2019 — Present</span>
+            </div>
+
+            <div class="exp-list">
+              <div class="exp-row">
+                <div>
+                  <h4 class="exp-role">Lead Product Designer &amp; Tech Lead</h4>
+                  <p class="exp-company">하이퍼스케일 테크랩 (Hyperscale Lab) · 풀타임</p>
+                  <p class="exp-detail">글로벌 SaaS 디자인 시스템 전면 개편 및 React 마이크로 프론트엔드 아키텍처 리드</p>
+                </div>
+                <span class="exp-date current">2023 — 현재</span>
+              </div>
+              <div class="exp-row">
+                <div>
+                  <h4 class="exp-role">Senior UX / UI Engineer</h4>
+                  <p class="exp-company">넥스트핀테크 (NextFintech Co.) · 풀타임</p>
+                  <p class="exp-detail">실시간 자산 시각화 대시보드 렌더링 최적화, 전환율 34% 증가 달성</p>
+                </div>
+                <span class="exp-date">2021 — 2023</span>
+              </div>
+              <div class="exp-row">
+                <div>
+                  <h4 class="exp-role">Creative Technologist</h4>
+                  <p class="exp-company">모노크롬 인터랙티브 스튜디오 (Monochrome)</p>
+                  <p class="exp-detail">WebGL 기반 브랜드 쇼케이스 및 몰입형 웹 경험 제작, Red Dot Award 수상 기여</p>
+                </div>
+                <span class="exp-date">2019 — 2021</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills -->
+          <div class="card card-muted bento-skills">
+            <div class="card-head-title skills-head">
+              <span class="material-symbols-outlined accent-icon">psychology</span>
+              <h3 class="card-title no-margin">관심 분야 &amp; 핵심 역량 (Focus &amp; Core Skills)</h3>
+            </div>
+            <div class="skills-grid">
+              <div class="skill"><span class="dot dot-primary"></span>UI/UX Product Design</div>
+              <div class="skill"><span class="dot dot-primary"></span>Frontend Architecture</div>
+              <div class="skill"><span class="dot dot-primary"></span>Design Systems &amp; Tokens</div>
+              <div class="skill"><span class="dot dot-primary"></span>Creative Technology &amp; 3D</div>
+              <div class="skill"><span class="dot dot-secondary"></span>React &amp; Next.js / TypeScript</div>
+              <div class="skill"><span class="dot dot-secondary"></span>Figma &amp; Prototyping</div>
+              <div class="skill"><span class="dot dot-secondary"></span>WebGL / Three.js / Canvas</div>
+              <div class="skill"><span class="dot dot-secondary"></span>Web Accessibility (a11y)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section section-surface" id="projects">
+      <div class="container">
+        <div class="projects-head">
+          <div>
+            <span class="eyebrow">SELECTED WORKS</span>
+            <h2 class="section-title">주요 프로젝트 쇼케이스</h2>
+          </div>
+          <p class="section-desc projects-desc">
+            실제 서비스에 론칭되어 비즈니스 성과를 창출하고 사용자에게 매끄러운 경험을 선사한 대표 작업물입니다.
+          </p>
+        </div>
+
+        <!-- 카드의 data-link 값을 실제 프로젝트 주소로 바꿔 주세요 (현재는 예시 링크) -->
+        <div class="projects-grid">
+          <article class="project-card" data-link="https://github.com/example/finflow" tabindex="0" role="link" aria-label="FinFlow 프로젝트 링크 열기">
+            <div class="project-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC_91uOTAr9N3mAjw_bj_we1YRcRRehqVBW93AiKi4rKzef_f-U4YqgDq0g6nzy_orphK2dTibrleBqdNndWTQpsRwaZViD64q8-T5O_nkJ9EZMSMnMlei1gDf7rDay1vgcKtlyt-PEeQSUZaIytW2YisUYUdFil0ibLcOmLvOyt5JSo2euvEDMpf86crK6bvI1fsas6QvqBEsPITGHCBrxpgLVkM-jairT0vcytlkrGl_wMi44SuQ"
+                   alt="FinFlow 핀테크 대시보드 화면" loading="lazy">
+              <span class="media-icon"><span class="material-symbols-outlined">open_in_new</span></span>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="tags">
+                  <span class="tag">FinTech</span>
+                  <span class="tag">UI/UX</span>
+                  <span class="tag tag-accent">React</span>
+                </div>
+                <h3 class="project-title">FinFlow — 차세대 핀테크 자산 관리 대시보드</h3>
+                <p class="project-text">
+                  방대한 양의 실시간 자산 데이터를 3밀리초 미만의 레이턴시로 렌더링하고, 포트폴리오 재조정 워크플로우를 단순화한 엔터프라이즈 솔루션.
+                </p>
+              </div>
+              <div class="project-foot">
+                <span class="more">자세히 보기</span>
+                <span class="material-symbols-outlined arrow">arrow_forward</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-link="https://github.com/example/aether-ai" tabindex="0" role="link" aria-label="Aether AI 프로젝트 링크 열기">
+            <div class="project-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBuOfiDpAl8HtFnPip0qaTmojdgkEpk_TzDxGwpolnqnS3LXzy2P9dO3TFytVgN6f56hjFKmBWfzwJUFHtAm8vm_j3Mv5AlKxZH5UL6R2UT0c6VVTI0y-YqNKls8jqaOhViQIMwXrOIoqS12Ka72MuhgvUnqAKyQOsokPb5hPpw90xfE4HJ_QVGzoyYRAUwAG0eTaU01kzEQ4cMCB1wNUGU6_qQZn12i2uLEugtqEF0qC5CsCJjNik"
+                   alt="Aether AI 협업 툴 화면" loading="lazy">
+              <span class="media-icon"><span class="material-symbols-outlined">open_in_new</span></span>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="tags">
+                  <span class="tag">AI Tool</span>
+                  <span class="tag">Product Design</span>
+                  <span class="tag tag-accent">TypeScript</span>
+                </div>
+                <h3 class="project-title">Aether AI — AI 기반 크리에이티브 협업 툴</h3>
+                <p class="project-text">
+                  생성형 AI 모델과 크리에이터 간의 상호작용을 캔버스 기반 노드 그래프로 시각화하여 멀티플레이어 협업을 획기적으로 개선한 플랫폼.
+                </p>
+              </div>
+              <div class="project-foot">
+                <span class="more">자세히 보기</span>
+                <span class="material-symbols-outlined arrow">arrow_forward</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-link="https://github.com/example/nordic-living" tabindex="0" role="link" aria-label="Nordic Living 프로젝트 링크 열기">
+            <div class="project-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWpQ5Pc1bw5Xt2r3iRSFErzjre-uNeUeuXs3--dGHtrm-rpbn6Idhl2OSya3Z-k9KvODC7nT51Mjt3_eGbm1BRUCLaNQmTBeyLotSevSgTvq9qXt__RxpcXwZXHCb-I_mZZBb3l2SvcLjnfwHPwN1kHOghGJyjpX9D1TL56a98WxQP8BGJ0WYzEQpKTR7eI-fzHkvPgfRh2Ed20rB4yCZKWzwHrAlcGKwLMVgvDgRSVwmDhTLz-6D9"
+                   alt="Nordic Living 이커머스 화면" loading="lazy">
+              <span class="media-icon"><span class="material-symbols-outlined">open_in_new</span></span>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="tags">
+                  <span class="tag">E-Commerce</span>
+                  <span class="tag">Branding</span>
+                  <span class="tag tag-accent">WebGL</span>
+                </div>
+                <h3 class="project-title">Nordic Living — 프리미엄 라이프스타일 이커머스</h3>
+                <p class="project-text">
+                  물리적 가구의 질감과 조명을 브라우저 내 60fps 3D 실시간 뷰어로 구현하여 반품률을 22% 감소시킨 하이엔드 라이프스타일 스토어.
+                </p>
+              </div>
+              <div class="project-foot">
+                <span class="more">자세히 보기</span>
+                <span class="material-symbols-outlined arrow">arrow_forward</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section-white" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-pitch">
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2 class="section-title">함께 새로운 프로젝트를 시작해 볼까요?</h2>
+          <p class="section-desc">
+            새로운 디지털 프로덕트 론칭, 디자인 시스템 구축, 혹은 의미 있는 기술적 협업에 언제나 열려 있습니다. 언제든 가볍게 커피챗을 요청해 주세요.
+          </p>
+
+          <div class="socials">
+            <p class="micro-label">SOCIAL CONNECTIONS</p>
+            <div class="social-list">
+              <a class="social" href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub <span class="material-symbols-outlined">arrow_outward</span></a>
+              <a class="social" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn <span class="material-symbols-outlined">arrow_outward</span></a>
+              <a class="social" href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter/X <span class="material-symbols-outlined">arrow_outward</span></a>
+              <a class="social" href="https://dribbble.com" target="_blank" rel="noopener noreferrer">Dribbble <span class="material-symbols-outlined">arrow_outward</span></a>
+              <a class="social" href="https://medium.com" target="_blank" rel="noopener noreferrer">Medium <span class="material-symbols-outlined">arrow_outward</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="email-box">
+            <a class="email-link" href="mailto:alex.chen@designcraft.dev" id="emailLink" title="메일 작성창 열기">
+              <span class="micro-label">직접 이메일 보내기</span>
+              <span class="email-address">alex.chen@designcraft.dev</span>
+            </a>
+            <button class="copy-btn" id="copyEmailBtn" type="button" title="이메일 복사하기" aria-label="이메일 주소 복사">
+              <span class="material-symbols-outlined">content_copy</span>
+            </button>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">이름 또는 기업명</label>
+              <input id="name" name="name" type="text" placeholder="홍길동 / Acme Corp" required>
+            </div>
+            <div class="field">
+              <label for="email">회신받을 이메일</label>
+              <input id="email" name="email" type="email" placeholder="your.name@company.com" required>
+            </div>
+            <div class="field">
+              <label for="message">프로젝트 내용 또는 문의사항</label>
+              <textarea id="message" name="message" rows="4" placeholder="프로젝트 목표, 일정, 예산 범위 등을 간략히 적어주세요." required></textarea>
+            </div>
+            <p class="form-error" id="formError" role="alert"></p>
+            <button class="btn btn-primary btn-block" type="submit">
+              <span>메시지 보내기</span>
+              <span class="material-symbols-outlined">send</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">ALEX.DEV</span>
+        <span class="divider">/</span>
+        <p>© 2025 Alex Chen. Built with precision and modernist craft.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">Dribbble</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
